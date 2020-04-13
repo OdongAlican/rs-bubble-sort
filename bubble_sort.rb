@@ -1,3 +1,21 @@
+
+def bubble_sort(value)
+  value.length.times do
+    (0...value.length - 1).each do |j|
+            next unless value[j] > value[j + 1]
+            switch = value[j]
+            value[j] = value[j + 1]
+            value[j + 1] = switch
+    end
+  end
+  puts value
+  return value
+end
+
+unsorted = (1..10).to_a.reverse!
+puts bubble_sort(unsorted) == unsorted.sort
+
+
 arr = [4, 3, 78, 2, 0, 2]
 
 def bubble_sort_by(my_arr)
@@ -22,22 +40,3 @@ bubble_sort_by(arr) do |x, y|
   puts arr.to_s
 end
 
-value = %w[hi hello hey]
-
-def bubble_sort
-  yield
-end
-
-bubble_sort do
-  value.length.times do
-    (0...value.length - 1).each do |j|
-      next unless value[j] < value[j + 1]
-
-      switch = value[j]
-      value[j] = value[j + 1]
-      value[j + 1] = switch
-    end
-  end
-
-  print value
-end
