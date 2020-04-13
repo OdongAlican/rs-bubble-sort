@@ -6,7 +6,7 @@ end
 bubble_sort_by(arr) do |x, y|
   arr.length.times do
     i = 0
-    while i < arr.length - 1
+    while i < arr.length-1
       x = arr[i]
       y = arr[i + 1]
       sorted = x <=> y
