@@ -26,9 +26,9 @@ You will be redirected to a webpage where you can provide a list of numbers or s
 
 Rose Wanjohi
 
-- Github: [@OdongAlican](https://github.com/blackpintz)
+- Github: [@blackpintz](https://github.com/blackpintz)
 
-- Twitter: [@odongsandie](https://twitter.com/blackpintz)
+- Twitter: [@blackpintz](https://twitter.com/blackpintz)
 
 
 
