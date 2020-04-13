@@ -1,4 +1,4 @@
-arr = [4,3,78,2,0,2]
+arr = [4, 3, 78, 2, 0, 2]
 
 def bubble_sort_by(my_arr)
   yield my_arr
@@ -6,7 +6,7 @@ end
 bubble_sort_by(arr) do |x, y|
   arr.length.times do
     i = 0
-    while i < arr.length-1
+    while i < arr.length - 1
       x = arr[i]
       y = arr[i + 1]
       sorted = x <=> y
@@ -21,7 +21,6 @@ bubble_sort_by(arr) do |x, y|
   end
   puts arr.to_s
 end
-
 
 value = %w[hi hello hey]
 
